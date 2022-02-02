@@ -6,9 +6,14 @@ public class Tip {
         System.out.println("Thank you!");
     
         //Task 2: Call a function that tips the waiter.
+        tip(bill);
     }
 
-
+    public static void tip( double bill ){
+        double percent = 0.15;
+        double tip = bill * percent;
+        System.out.println("\nHere is your tip: " + tip + "\nYour service was wonderful!");
+    }
 
     
     //Task 1: Make a function here. See the doc comment for details.  
